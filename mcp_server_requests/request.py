@@ -9,7 +9,7 @@ import urllib.request
 import http.client
 from urllib.parse import parse_qsl, urlparse, urlencode, urlunparse
 
-from .utils import html_to_markdown, clean_html
+from mcp_server_requests.utils import html_to_markdown, clean_html
 
 
 HTTP_METHODS = ["GET", "POST", "PUT", "PATCH", "DELETE"]

@@ -4,10 +4,10 @@ import os
 import click
 from mcp.server.fastmcp import FastMCP
 
-from .version import __version__
-from .request import mcp_http_request
-from .ua import list_ua_browsers, list_ua_oses, random_ua
-from .utils import parse
+from mcp_server_requests.version import __version__
+from mcp_server_requests.request import mcp_http_request
+from mcp_server_requests.ua import list_ua_browsers, list_ua_oses, random_ua
+from mcp_server_requests.utils import parse
 
 
 def get_user_agent(
