@@ -173,7 +173,7 @@ def format_response_result(
     format_headers: bool | None = None,
     return_content: Literal["raw", "basic_clean", "strict_clean", "markdown"] = "raw",
 ) -> str:
-    """将HTTP响应格式化为字符串"""
+    """Format HTTP response as a string."""
     http_version = response.version
     status = response.status_code
     reason = response.reason
